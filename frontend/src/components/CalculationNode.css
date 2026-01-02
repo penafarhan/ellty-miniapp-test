@@ -1,0 +1,104 @@
+.calculation-node {
+  margin: 1rem 0;
+}
+
+.calculation-content {
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s;
+}
+
+.calculation-content:hover {
+  border-color: #4CAF50;
+}
+
+.calculation-operation {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.operation-symbol {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.operation-number {
+  font-weight: 500;
+}
+
+.calculation-start {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.start-label {
+  color: #666;
+}
+
+.start-number {
+  font-weight: bold;
+  color: #2196F3;
+  font-size: 1.4rem;
+}
+
+.calculation-result {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.calculation-result strong {
+  color: #000;
+  font-size: 1.4rem;
+}
+
+.calculation-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.username {
+  color: #4CAF50;
+  font-weight: 500;
+}
+
+.timestamp {
+  color: #999;
+}
+
+.add-operation-btn {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.add-operation-btn:hover {
+  background: #45a049;
+}
+
+.calculation-children {
+  margin-left: 2rem;
+  border-left: 2px solid #e0e0e0;
+  padding-left: 1rem;
+}
